@@ -1,0 +1,88 @@
+body {
+    cursor: url('marcillecursor.png'), auto;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: lightgray;
+}
+
+.container {
+    width: 300px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: gold;
+    color: green;
+    font-weight: 900;
+    cursor: pointer;
+}
+
+#result{
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    resize: none;
+    background-color: lightgray;
+}
+
+#marcille{
+    width: 300px;
+    height: 300px;
+    border-radius: 5px;
+}
+
+#roundButton {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: green ; /* Blue color, you can change it to any color you want */
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3); /* Optional: Adds a shadow effect */
+    outline: none; /* Removes default button outline */
+}
+
+#textBoxContainer {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    font-style: oblique;
+}
+
+#bottomLeftTextBox {
+    width: 200px;
+    height: 30px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 16px;
+    box-sizing: border-box; /* Ensure padding and border are included in width and height */
+}
